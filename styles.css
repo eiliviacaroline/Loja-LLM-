@@ -16,12 +16,13 @@ body {
 header {
     background-color: #333; /* Cor de fundo do cabeçalho */
     color: #fff; /* Cor do texto do cabeçalho */
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
 header h1 {
     font-size: 36px;
+    padding: 30px;
 }
 
 header nav ul {
@@ -61,23 +62,18 @@ footer {
     text-align: center;
 }
 
-footer .newsletter input[type="email"] {
+ .newsletter input[type="text"] {
+    margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-footer .newsletter button {
+ .newsletter button {
     padding: 10px 20px;
     background-color: #007bff; /* Azul */
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-footer .redes-sociais a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
 }
