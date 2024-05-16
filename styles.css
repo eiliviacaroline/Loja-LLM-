@@ -53,6 +53,28 @@ main {
     font-size: 24px;
     margin-bottom: 20px;
 }
+.produto {
+    display: inline-block;
+    width: 30%; /* ajuste conforme necessário */
+    margin: 1%;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+.produto {
+    display: inline-block;
+    width: 30%; /* ajuste conforme necessário */
+    margin: 1%;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Estilos para o rodapé */
 footer {
