@@ -8,35 +8,44 @@
 /* Estilos para o corpo da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Cor de fundo geral */
+    background-color: #000000; /* Cor de fundo geral */
     color: #333; /* Cor do texto principal */
 }
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: #333; /* Cor de fundo do cabeçalho */
-    color: #fff; /* Cor do texto do cabeçalho */
+    background-color: #0400ff59; /* Cor de fundo do cabeçalho */
+    color: #000000; /* Cor do texto do cabeçalho */
     padding: 10px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 90px;
+    font-size: 100px;
     font-family: Docallisme On Street;
     padding: 30px;
+    color: #ffffff;
 }
-
+header h3 {
+    font-size: 50px;
+    font-family: BOOMSTER;
+    padding: 30px;
+    color: #ffffff;
+}
 header nav ul {
     list-style: none;
+    font-family: BOOMSTER;
+    color: #ffffff;
 }
 
 header nav ul li {
     display: inline;
+    font-size: 25px;
     margin-right: 20px;
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -51,11 +60,14 @@ main {
 }
 
 .destaques h2 {
-    font-size: 24px;
+    font-size: 50px;
+    font-family: BOOMSTER;
     margin-bottom: 20px;
+    color: #ffffff;
 }
 .produto {
     display: inline-block;
+    color: #ffffff;
     width: 30%; /* ajuste conforme necessário */
     margin: 1%;
     text-align: center;
@@ -67,6 +79,7 @@ main {
 }
 .produto {
     display: inline-block;
+    color: #ffffff;
     width: 30%; /* ajuste conforme necessário */
     margin: 1%;
     text-align: center;
@@ -79,8 +92,8 @@ main {
 
 /* Estilos para o rodapé */
 footer {
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto do rodapé */
+    background-color: #061dec7c; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto do rodapé */
     padding: 20px;
     text-align: center;
 }
@@ -88,19 +101,24 @@ footer {
  .newsletter input[type="text"] {
     margin: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
 }
 
  .newsletter button {
     padding: 10px 20px;
-    background-color: #007bff; /* Azul */
-    color: #fff;
+    background-color: #000000; /* Azul */
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 @font-face{
     font-family: Docallisme On Street;
-    src: url(docallisme_on_street/docallismeonstreet.otf);
+    src: url(DOCALLISME\ ON\ STREET.ttf);
 }
+@font-face{
+    font-family: BOOMSTER;
+    src: url(BOOMSTER.otf);
+}
+
