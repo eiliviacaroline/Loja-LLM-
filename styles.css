@@ -21,7 +21,8 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 90px;
+    font-family: Docallisme On Street;
     padding: 30px;
 }
 
@@ -98,4 +99,8 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+@font-face{
+    font-family: Docallisme On Street;
+    src: url(docallisme_on_street/docallismeonstreet.otf);
 }
