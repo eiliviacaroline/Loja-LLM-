@@ -34,7 +34,7 @@ header h3 {
 }
 header nav ul {
     list-style: none;
-    font-family: BOOMSTER;
+    font-family: Happy Memories;
     color: #ffffff;
 }
 
@@ -134,4 +134,49 @@ footer {
     src: url(Happy\ Memories.ttf);
 }
  
-  
+body {
+    font-family: Happy Memories;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family Happy Memories
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-family Happy Memories
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+main {
+    padding: 20px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px; /* Ajusta a altura da linha para centralizar verticalmente o texto */
+}
