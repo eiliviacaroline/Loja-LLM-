@@ -68,9 +68,11 @@ main {
 .produto {
     display: inline-block;
     color: #ffffff;
-    width: 30%; /* ajuste conforme necessário */
+    width: 50%; /* ajuste conforme necessário */
     margin: 1%;
+    font-family: Happy Memories;
     text-align: center;
+    font-size: 25px;
 }
 
 .produto img {
@@ -122,3 +124,14 @@ footer {
     src: url(BOOMSTER.otf);
 }
 
+@font-face{
+    font-family: This Cafe;
+    src: url(This\ Cafe.ttf);
+}
+
+@font-face{
+    font-family: Happy Memories;
+    src: url(Happy\ Memories.ttf);
+}
+ 
+  
